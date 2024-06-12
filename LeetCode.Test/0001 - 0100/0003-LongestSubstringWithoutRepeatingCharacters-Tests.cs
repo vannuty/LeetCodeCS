@@ -7,12 +7,12 @@ namespace LeetCode.Tests._0001___0100
     {
         [Theory]
         [InlineData("abcabcbb", 3)]
-        //[InlineData("bbbbb", 1)]
-        //[InlineData("pwwkew", 3)]
-        //[InlineData("", 0)]
-        //[InlineData(" ", 1)]
-        //[InlineData("au", 2)]
-        //[InlineData("dvdf", 3)]
+        [InlineData("bbbbb", 1)]
+        [InlineData("pwwkew", 3)]
+        [InlineData("", 0)]
+        [InlineData(" ", 1)]
+        [InlineData("au", 2)]
+        [InlineData("dvdf", 3)]
         public void LengthOfLongestSubstring_ShouldReturnExpectedLength(string s, int expectedLength)
         {
             // Act

@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using Xunit;
 using LeetCode._0001___0100;
 
 namespace LeetCode.Tests._0001___0100
@@ -35,25 +34,6 @@ namespace LeetCode.Tests._0001___0100
                 node = node.next;
             }
             return values.ToArray();
-        }
-
-        [Fact]
-        public void AddTwoNumbers_ShouldReturnCorrectSum_ForExample1()
-        {
-            // Arrange
-            var sut = new _0002_AddTwoNumber();
-            var l1 = CreateLinkedList(2, 4, 3);
-            var l2 = CreateLinkedList(5, 6, 4);
-
-            // Act
-            var result = sut.AddTwoNumbers(l1, l2);
-
-            // Assert
-            var expected = CreateLinkedList(7, 0, 8);
-            var resultArray = ConvertToArray(result);
-            var expectedArray = ConvertToArray(expected);
-
-            resultArray.Should().Equal(expectedArray);
         }
 
         [Theory]

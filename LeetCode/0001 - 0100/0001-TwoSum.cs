@@ -1,4 +1,4 @@
-﻿namespace LeetCode
+﻿namespace LeetCode._0001___0100
 {
     public class _0001_TwoSum
     {

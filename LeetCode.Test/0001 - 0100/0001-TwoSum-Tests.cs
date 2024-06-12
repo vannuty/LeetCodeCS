@@ -1,4 +1,5 @@
 ﻿using FluentAssertions;
+using LeetCode._0001___0100;
 
 namespace LeetCode.Tests._0001___0100
 {
@@ -10,7 +11,10 @@ namespace LeetCode.Tests._0001___0100
         [InlineData(new int[] { 3, 3 }, 6)]
         public void TwoSum_ShouldReturnExpectedValues(int[] nums, int target)
         {
+            // Act
             var result = new _0001_TwoSum().TwoSum(nums, target);
+
+            // Assert
             target.Should().Be(result.Select(x => nums[x]).Sum());
         }
 
@@ -20,7 +24,10 @@ namespace LeetCode.Tests._0001___0100
         [InlineData(new int[] { 3, 3 }, 6)]
         public void TwoSumV2_ShouldReturnExpectedValues(int[] nums, int target)
         {
+            // Act
             var result = new _0001_TwoSum().TwoSumV2(nums, target);
+
+            // Assert
             target.Should().Be(result.Select(x => nums[x]).Sum());
         }
     }

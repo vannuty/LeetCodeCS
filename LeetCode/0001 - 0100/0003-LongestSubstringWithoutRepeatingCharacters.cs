@@ -1,6 +1,4 @@
-﻿using System.Linq;
-
-namespace LeetCode._0001___0100
+﻿namespace LeetCode._0001___0100
 {
     public class _0003_LongestSubstringWithoutRepeatingCharacters
     {
