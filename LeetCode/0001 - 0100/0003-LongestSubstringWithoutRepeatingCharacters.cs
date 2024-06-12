@@ -6,7 +6,6 @@
         {
             if (s.Length < 2) return s.Length;
 
-
             var aux = "";
             var substrings = new List<string>();
 
