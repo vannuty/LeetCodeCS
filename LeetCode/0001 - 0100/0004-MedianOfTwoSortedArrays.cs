@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCode._0001___0100
+﻿namespace LeetCode._0001___0100
 {
     public class _0004_MedianOfTwoSortedArrays
     {
